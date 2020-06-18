@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestClass</name>
+    </assembly>
+    <members>
+        <member name="T:TestClass.AnotherObj">
+            <summary>
+            Main Class 
+            </summary>
+        </member>
+        <member name="M:TestClass.AnotherObj.#ctor">
+            <summary>
+            AnotherObj Class. 
+            </summary>
+        </member>
+        <member name="M:TestClass.AnotherObj.NewInstance">
+            <summary>
+            Returns only an instance of this class
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestClass.AnotherObj.NewObj">
+            <summary>
+            Return as instance of Obj
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestClass.AnotherObj.Finalize">
+            <summary>
+            Destructor
+            </summary>
+        </member>
+        <member name="T:TestClass.Obj">
+            <summary>
+            Obj Class
+            </summary>
+        </member>
+        <member name="M:TestClass.Obj.#ctor">
+            <summary>
+            Constructor Class.
+            </summary>
+        </member>
+        <member name="M:TestClass.Obj.makeObj(TestClass.AnotherObj)">
+            <summary>
+            Return an instance on ObjClass
+            <paramref name="caller">must be a AnotherObj object</paramref>
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
