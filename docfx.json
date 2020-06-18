@@ -70,6 +70,6 @@
    }
  ],
  "dest": "_site_pdf",
-"template": "pdf.default"
+"template": ["pdf.default","templates/darkfx"]
 }
 }
