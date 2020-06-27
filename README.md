@@ -2,7 +2,7 @@
 DLL file and documentation XML file are used to generate documentation in this project, and they are located in *root\\src* folder.
 To check the generated pdf go to the *root\\\_site\_pdf* folder.
 
-Also, you can put directly the whole Visual Studio C#\F#\VB.NET project folder content inside the
+Also, you can put directly the whole Visual Studio C# project folder content inside the
 *root\\src* folder but replace "\*\*.dll" with "\*\*.csproj" as value of the key "src" inside of "build"
 dictionary in the *docfx.json* file.
 
