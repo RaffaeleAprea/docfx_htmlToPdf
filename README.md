@@ -1,10 +1,13 @@
-# This is the DLL documentation section
-DLL file and documentation XML file are used to generate this page, and they are located in *root\\src* folder.
-To check the generated pdf go to the *root\\\_site\_pdf folder*.
+# DOCFX example project
+DLL file and documentation XML file are used to generate documentation in this project, and they are located in *root\\src* folder.
+To check the generated pdf go to the *root\\\_site\_pdf* folder.
 
 Also, you can put directly the whole Visual Studio C#\F#\VB.NET project folder content inside the
 *root\\src* folder but replace "\*\*.dll" with "\*\*.csproj" as value of the key "src" inside of "build"
-dictionary in the *docfx.json* file. 
+dictionary in the *docfx.json* file.
+
+Actually I'm interested to get documentation out of undocumented APIs, that's why I used a DLL for this example :) 
+Source codes of the DLL and the XML are inside the *root\\\_site\_pdf* folder
 
 A pdf default style has been used as template instead. While the web site has been built using *darkfx* 
 template, inside *root\\templates* foder.
@@ -20,6 +23,9 @@ For more info about styles and PDF go to this [closed issue discussion](https://
 properties and classes get exposed in the docfx documentation 
 
 # Tip: 
-Drag and drop the pdf file into Microsoft Word application to read it as *editable* document. Too complex converted pdf documents in Word tend to be broken. After hand-made fixes save the document as DOCX file.
+Drag and drop the pdf file into Microsoft Word application to read it as *editable* document. Too complex converted pdf documents 
+into Word tend to be broken. After hand-made fixes save the document as DOCX file.
+
+I Actually use docfx and Word like this also to get nice documentation out of my C# projects :) 
 
 Refer to this [youtube tutorial](https://www.youtube.com/watch?v=oP393DSX9xs) and [this other youtube tutorial](https://www.youtube.com/watch?v=aThwPl-HdPo) to see how it works

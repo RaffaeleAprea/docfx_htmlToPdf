@@ -1,0 +1,165 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: DocTestClass
+  name: DocTestClass
+  href: api/DocTestClass.html
+  commentId: N:DocTestClass
+  fullName: DocTestClass
+  nameWithType: DocTestClass
+- uid: DocTestClass.TestClassA
+  name: TestClassA
+  href: api/DocTestClass.TestClassA.html
+  commentId: T:DocTestClass.TestClassA
+  fullName: DocTestClass.TestClassA
+  nameWithType: TestClassA
+- uid: DocTestClass.TestClassA.#ctor(System.String,System.Int32,System.Collections.Generic.Dictionary{System.String,System.Object})
+  name: TestClassA(String, Int32, Dictionary<String, Object>)
+  href: api/DocTestClass.TestClassA.html#DocTestClass_TestClassA__ctor_System_String_System_Int32_System_Collections_Generic_Dictionary_System_String_System_Object__
+  commentId: M:DocTestClass.TestClassA.#ctor(System.String,System.Int32,System.Collections.Generic.Dictionary{System.String,System.Object})
+  name.vb: TestClassA(String, Int32, Dictionary(Of String, Object))
+  fullName: DocTestClass.TestClassA.TestClassA(System.String, System.Int32, System.Collections.Generic.Dictionary<System.String, System.Object>)
+  fullName.vb: DocTestClass.TestClassA.TestClassA(System.String, System.Int32, System.Collections.Generic.Dictionary(Of System.String, System.Object))
+  nameWithType: TestClassA.TestClassA(String, Int32, Dictionary<String, Object>)
+  nameWithType.vb: TestClassA.TestClassA(String, Int32, Dictionary(Of String, Object))
+- uid: DocTestClass.TestClassA.#ctor*
+  name: TestClassA
+  href: api/DocTestClass.TestClassA.html#DocTestClass_TestClassA__ctor_
+  commentId: Overload:DocTestClass.TestClassA.#ctor
+  fullName: DocTestClass.TestClassA.TestClassA
+  nameWithType: TestClassA.TestClassA
+- uid: DocTestClass.TestClassA.PublicMethod
+  name: PublicMethod()
+  href: api/DocTestClass.TestClassA.html#DocTestClass_TestClassA_PublicMethod
+  commentId: M:DocTestClass.TestClassA.PublicMethod
+  fullName: DocTestClass.TestClassA.PublicMethod()
+  nameWithType: TestClassA.PublicMethod()
+- uid: DocTestClass.TestClassA.PublicMethod*
+  name: PublicMethod
+  href: api/DocTestClass.TestClassA.html#DocTestClass_TestClassA_PublicMethod_
+  commentId: Overload:DocTestClass.TestClassA.PublicMethod
+  fullName: DocTestClass.TestClassA.PublicMethod
+  nameWithType: TestClassA.PublicMethod
+- uid: DocTestClass.TestClassB
+  name: TestClassB
+  href: api/DocTestClass.TestClassB.html
+  commentId: T:DocTestClass.TestClassB
+  fullName: DocTestClass.TestClassB
+  nameWithType: TestClassB
+- uid: DocTestClass.TestClassB.#ctor(System.String,System.Int32,System.Collections.Generic.Dictionary{System.String,System.Object})
+  name: TestClassB(String, Int32, Dictionary<String, Object>)
+  href: api/DocTestClass.TestClassB.html#DocTestClass_TestClassB__ctor_System_String_System_Int32_System_Collections_Generic_Dictionary_System_String_System_Object__
+  commentId: M:DocTestClass.TestClassB.#ctor(System.String,System.Int32,System.Collections.Generic.Dictionary{System.String,System.Object})
+  name.vb: TestClassB(String, Int32, Dictionary(Of String, Object))
+  fullName: DocTestClass.TestClassB.TestClassB(System.String, System.Int32, System.Collections.Generic.Dictionary<System.String, System.Object>)
+  fullName.vb: DocTestClass.TestClassB.TestClassB(System.String, System.Int32, System.Collections.Generic.Dictionary(Of System.String, System.Object))
+  nameWithType: TestClassB.TestClassB(String, Int32, Dictionary<String, Object>)
+  nameWithType.vb: TestClassB.TestClassB(String, Int32, Dictionary(Of String, Object))
+- uid: DocTestClass.TestClassB.#ctor*
+  name: TestClassB
+  href: api/DocTestClass.TestClassB.html#DocTestClass_TestClassB__ctor_
+  commentId: Overload:DocTestClass.TestClassB.#ctor
+  fullName: DocTestClass.TestClassB.TestClassB
+  nameWithType: TestClassB.TestClassB
+- uid: DocTestClass.TestClassB.PublicMethod
+  name: PublicMethod()
+  href: api/DocTestClass.TestClassB.html#DocTestClass_TestClassB_PublicMethod
+  commentId: M:DocTestClass.TestClassB.PublicMethod
+  fullName: DocTestClass.TestClassB.PublicMethod()
+  nameWithType: TestClassB.PublicMethod()
+- uid: DocTestClass.TestClassB.PublicMethod*
+  name: PublicMethod
+  href: api/DocTestClass.TestClassB.html#DocTestClass_TestClassB_PublicMethod_
+  commentId: Overload:DocTestClass.TestClassB.PublicMethod
+  fullName: DocTestClass.TestClassB.PublicMethod
+  nameWithType: TestClassB.PublicMethod
+- uid: Second_Doc_TestClass_A
+  name: Second_Doc_TestClass_A
+  href: api/Second_Doc_TestClass_A.html
+  commentId: N:Second_Doc_TestClass_A
+  fullName: Second_Doc_TestClass_A
+  nameWithType: Second_Doc_TestClass_A
+- uid: Second_Doc_TestClass_A.TestClass2
+  name: TestClass2
+  href: api/Second_Doc_TestClass_A.TestClass2.html
+  commentId: T:Second_Doc_TestClass_A.TestClass2
+  fullName: Second_Doc_TestClass_A.TestClass2
+  nameWithType: TestClass2
+- uid: Second_Doc_TestClass_A.TestClass2.Finalize
+  name: Finalize()
+  href: api/Second_Doc_TestClass_A.TestClass2.html#Second_Doc_TestClass_A_TestClass2_Finalize
+  commentId: M:Second_Doc_TestClass_A.TestClass2.Finalize
+  fullName: Second_Doc_TestClass_A.TestClass2.Finalize()
+  nameWithType: TestClass2.Finalize()
+- uid: Second_Doc_TestClass_A.TestClass2.Finalize*
+  name: Finalize
+  href: api/Second_Doc_TestClass_A.TestClass2.html#Second_Doc_TestClass_A_TestClass2_Finalize_
+  commentId: Overload:Second_Doc_TestClass_A.TestClass2.Finalize
+  fullName: Second_Doc_TestClass_A.TestClass2.Finalize
+  nameWithType: TestClass2.Finalize
+- uid: Second_Doc_TestClass_A.TestClass2.getInstance
+  name: getInstance()
+  href: api/Second_Doc_TestClass_A.TestClass2.html#Second_Doc_TestClass_A_TestClass2_getInstance
+  commentId: M:Second_Doc_TestClass_A.TestClass2.getInstance
+  fullName: Second_Doc_TestClass_A.TestClass2.getInstance()
+  nameWithType: TestClass2.getInstance()
+- uid: Second_Doc_TestClass_A.TestClass2.getInstance*
+  name: getInstance
+  href: api/Second_Doc_TestClass_A.TestClass2.html#Second_Doc_TestClass_A_TestClass2_getInstance_
+  commentId: Overload:Second_Doc_TestClass_A.TestClass2.getInstance
+  fullName: Second_Doc_TestClass_A.TestClass2.getInstance
+  nameWithType: TestClass2.getInstance
+- uid: Second_Doc_TestClass_A.TestClass3
+  name: TestClass3
+  href: api/Second_Doc_TestClass_A.TestClass3.html
+  commentId: T:Second_Doc_TestClass_A.TestClass3
+  fullName: Second_Doc_TestClass_A.TestClass3
+  nameWithType: TestClass3
+- uid: Second_Doc_TestClass_A.TestClass3.Finalize
+  name: Finalize()
+  href: api/Second_Doc_TestClass_A.TestClass3.html#Second_Doc_TestClass_A_TestClass3_Finalize
+  commentId: M:Second_Doc_TestClass_A.TestClass3.Finalize
+  fullName: Second_Doc_TestClass_A.TestClass3.Finalize()
+  nameWithType: TestClass3.Finalize()
+- uid: Second_Doc_TestClass_A.TestClass3.Finalize*
+  name: Finalize
+  href: api/Second_Doc_TestClass_A.TestClass3.html#Second_Doc_TestClass_A_TestClass3_Finalize_
+  commentId: Overload:Second_Doc_TestClass_A.TestClass3.Finalize
+  fullName: Second_Doc_TestClass_A.TestClass3.Finalize
+  nameWithType: TestClass3.Finalize
+- uid: Second_Doc_TestClass_A.TestClass3.getInstance
+  name: getInstance()
+  href: api/Second_Doc_TestClass_A.TestClass3.html#Second_Doc_TestClass_A_TestClass3_getInstance
+  commentId: M:Second_Doc_TestClass_A.TestClass3.getInstance
+  fullName: Second_Doc_TestClass_A.TestClass3.getInstance()
+  nameWithType: TestClass3.getInstance()
+- uid: Second_Doc_TestClass_A.TestClass3.getInstance*
+  name: getInstance
+  href: api/Second_Doc_TestClass_A.TestClass3.html#Second_Doc_TestClass_A_TestClass3_getInstance_
+  commentId: Overload:Second_Doc_TestClass_A.TestClass3.getInstance
+  fullName: Second_Doc_TestClass_A.TestClass3.getInstance
+  nameWithType: TestClass3.getInstance
+- uid: Second_Doc_TestClass_A.TestClass3.Property_A
+  name: Property_A
+  href: api/Second_Doc_TestClass_A.TestClass3.html#Second_Doc_TestClass_A_TestClass3_Property_A
+  commentId: P:Second_Doc_TestClass_A.TestClass3.Property_A
+  fullName: Second_Doc_TestClass_A.TestClass3.Property_A
+  nameWithType: TestClass3.Property_A
+- uid: Second_Doc_TestClass_A.TestClass3.Property_A*
+  name: Property_A
+  href: api/Second_Doc_TestClass_A.TestClass3.html#Second_Doc_TestClass_A_TestClass3_Property_A_
+  commentId: Overload:Second_Doc_TestClass_A.TestClass3.Property_A
+  fullName: Second_Doc_TestClass_A.TestClass3.Property_A
+  nameWithType: TestClass3.Property_A
+- uid: Second_Doc_TestClass_A.TestClass3.Property_B
+  name: Property_B
+  href: api/Second_Doc_TestClass_A.TestClass3.html#Second_Doc_TestClass_A_TestClass3_Property_B
+  commentId: P:Second_Doc_TestClass_A.TestClass3.Property_B
+  fullName: Second_Doc_TestClass_A.TestClass3.Property_B
+  nameWithType: TestClass3.Property_B
+- uid: Second_Doc_TestClass_A.TestClass3.Property_B*
+  name: Property_B
+  href: api/Second_Doc_TestClass_A.TestClass3.html#Second_Doc_TestClass_A_TestClass3_Property_B_
+  commentId: Overload:Second_Doc_TestClass_A.TestClass3.Property_B
+  fullName: Second_Doc_TestClass_A.TestClass3.Property_B
+  nameWithType: TestClass3.Property_B

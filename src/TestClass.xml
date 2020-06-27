@@ -1,52 +1,179 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>TestClass</name>
+        <name>testClass</name>
     </assembly>
     <members>
-        <member name="T:TestClass.AnotherObj">
+        <member name="T:DocTestClass.TestClassA">
             <summary>
-            Main Class 
+            Main Class lorem ipsum dixit
+            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed <br/>
+            do eiusmod tempor incidunt ut<br/> labore et dolore magna aliqua
             </summary>
         </member>
-        <member name="M:TestClass.AnotherObj.#ctor">
+        <member name="M:DocTestClass.TestClassA.PublicMethod">
             <summary>
-            AnotherObj Class. 
+            Public method ipse dicit
+            </summary>
+            <example>
+            <code lang="cs">
+            TestClass foo = new TestClass("bar",12301230, dObj)<br/>
+            foo.PublicMethod
+            </code>
+            </example>
+        </member>
+        <member name="M:DocTestClass.TestClassA.#ctor(System.String,System.Int32,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Constructor Method
+            </summary>
+            <param name="param1">name of the caller</param>
+            <param name="param2">ID of the caller</param>
+            <param name="dictConfig"> Configuration metadata</param>
+        </member>
+        <member name="P:DocTestClass.TestClassA.param">
+            <summary>
+            Returns the ID of the instance
             </summary>
         </member>
-        <member name="M:TestClass.AnotherObj.NewInstance">
+        <member name="P:DocTestClass.TestClassA.numOfInstances">
             <summary>
-            Returns only an instance of this class
+            Number of instanced that has been created out of this class
             </summary>
-            <returns></returns>
         </member>
-        <member name="M:TestClass.AnotherObj.NewObj">
+        <member name="T:DocTestClass.TestClassB">
+             <summary>
+             Support Class lorem ipsum dixit<br/>
+             Lorem ipsum dolor sit amet, consectetur adipisci elit, sed <br/>
+             do eiusmod tempor incidunt ut<br/> labore et dolore magna aliqua
+            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed <br/>
+            do eiusmod tempor incidunt ut<br/> labore et dolore magna aliqua
+            </summary>
+        </member>
+        <member name="M:DocTestClass.TestClassB.PublicMethod">
             <summary>
-            Return as instance of Obj
+            Public method ipse dicit
             </summary>
-            <returns></returns>
+            <example>
+            Example of usage<br/>
+            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed <br/>
+            do eiusmod tempor incidunt ut<br/> labore et dolore magna aliqua
+            <code>
+            
+            TestClass foo = new TestClass("bar",12301230, dObj)<br/>
+            foo.PublicMethod
+            
+            </code>
+            </example>
         </member>
-        <member name="M:TestClass.AnotherObj.Finalize">
+        <member name="M:DocTestClass.TestClassB.#ctor(System.String,System.Int32,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Constructor Method
+            </summary>
+            <param name="dictConfig"> Configuration metadata</param>
+            <param name="param1">name of the caller</param>
+            <param name="param2">ID of the caller</param>
+        </member>
+        <member name="P:DocTestClass.TestClassB.param">
+            <summary>
+            Returns the ID of the instance<br/> Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua
+            </summary>
+        </member>
+        <member name="P:DocTestClass.TestClassB.numOfInstances">
+            <summary>
+            Number of instanced that has been created out of this class<br/> Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua
+            </summary>
+        </member>
+        <member name="T:Second_Doc_TestClass_A.TestClass2">
+            <summary>
+            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed <br/>
+            do eiusmod tempor incidunt ut<br/> labore et dolore magna aliqua
+            </summary>
+        </member>
+        <member name="F:Second_Doc_TestClass_A.TestClass2.instanceCreated">
+            <summary>
+            number of instances
+            </summary>
+        </member>
+        <member name="M:Second_Doc_TestClass_A.TestClass2.#ctor">
+            <summary>
+            The costructor is private<br/> labore et dolore magna aliqua
+            </summary>
+        </member>
+        <member name="M:Second_Doc_TestClass_A.TestClass2.getInstance">
+            <summary>
+            Returns only an instance of this class and of TestClassA inside a dictionary. If an instance has already been created then return value is null 
+            </summary>
+            <example>
+            Example code of the usage of <c>getInstance()</c><br/>
+            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut<br/> labore et dolore magna aliqua
+            <code lang ="cs">
+            var objs = TestClass2.getInstance();
+            TestClass2 obj = objs["TestClass2"] ;
+            TestClassA objA = objs["TestClassA"];
+            </code>
+            </example>
+            <returns>
+            Returns a Dictionary
+            </returns>
+        </member>
+        <member name="M:Second_Doc_TestClass_A.TestClass2.Finalize">
             <summary>
             Destructor
             </summary>
         </member>
-        <member name="T:TestClass.Obj">
+        <member name="T:Second_Doc_TestClass_A.TestClass3">
             <summary>
-            Obj Class
+            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed <br/>
+            do eiusmod tempor incidunt ut<br/> labore et dolore magna aliqua
             </summary>
         </member>
-        <member name="M:TestClass.Obj.#ctor">
+        <member name="F:Second_Doc_TestClass_A.TestClass3.instanceCreated">
             <summary>
-            Constructor Class.
+            number of instances
             </summary>
         </member>
-        <member name="M:TestClass.Obj.makeObj(TestClass.AnotherObj)">
+        <member name="M:Second_Doc_TestClass_A.TestClass3.#ctor">
             <summary>
-            Return an instance on ObjClass
-            <paramref name="caller">must be a AnotherObj object</paramref>
+            The costructor is private
             </summary>
-            <returns></returns>
+        </member>
+        <member name="M:Second_Doc_TestClass_A.TestClass3.getInstance">
+            <summary>
+            Returns only an instance of this class and of <c>TestClassA</c>inside a dictionary
+            </summary>
+            <example>
+            Example of usage
+            <code lang="cs">
+            
+            var objs = TestClass2.getInstance();
+            TestClass2 obj = objs["TestClass2"] ;
+            TestClassA objA = objs["TestClassA"];
+            </code>
+            </example>
+            <returns>Returns a dictionary containing two objects</returns>
+        </member>
+        <member name="P:Second_Doc_TestClass_A.TestClass3.Property_A">
+            <summary>
+            Property A  <br/>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua
+            
+            </summary>
+            <value>
+            bla bla bla 
+            </value>
+        </member>
+        <member name="P:Second_Doc_TestClass_A.TestClass3.Property_B">
+            <summary>
+            Property B (read-only)  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua
+            
+            </summary>
+        </member>
+        <member name="M:Second_Doc_TestClass_A.TestClass3.Finalize">
+            <summary>
+            Destructor
+            </summary>
+            <value>
+            bla bla bla 
+            </value>
         </member>
     </members>
 </doc>
